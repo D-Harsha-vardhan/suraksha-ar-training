@@ -1,0 +1,6 @@
+{
+  "name": "ARS.Data",
+  "rootNamespace": "ARS.Data",
+  "references": ["ARS.Core"],
+  "noEngineReferences": true
+}

@@ -1,0 +1,1 @@
+{"name":"ARS.Tests","rootNamespace":"ARS.Tests","references":["ARS.Core","ARS.Data"],"includePlatforms":["Editor"],"defineConstraints":["UNITY_INCLUDE_TESTS"],"optionalUnityReferences":["TestAssemblies"],"noEngineReferences":true}

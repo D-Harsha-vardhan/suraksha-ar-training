@@ -1,0 +1,2 @@
+using ARS.Core.Localization; using ARS.Data; using NUnit.Framework;
+namespace ARS.Tests { public class LocalizationTests { [Test] public void MissingLanguageFallsBackToEnglish(){Loc.LoadJson("en","{\\\"greeting\\\":\\\"Safe\\\"}");Loc.SetLanguage("hi");Assert.That(Loc.T("greeting"),Is.EqualTo("Safe"));} [Test] public void StoreRoundTripsData(){var s=new InMemoryStore();s.Save("score",92);Assert.That(s.TryLoad<int>("score",out var score),Is.True);Assert.That(score,Is.EqualTo(92));} } }

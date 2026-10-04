@@ -1,0 +1,1 @@
+{"name":"ARS.App","rootNamespace":"ARS.App","references":["ARS.Core","ARS.Data","ARS.UI","Unity.TextMeshPro","Unity.XR.ARFoundation","Unity.XR.ARSubsystems","Unity.InputSystem"]}

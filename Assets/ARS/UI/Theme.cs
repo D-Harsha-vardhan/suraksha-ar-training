@@ -1,0 +1,2 @@
+using UnityEngine;
+namespace ARS.UI { public static class Theme { public static readonly Color Bg=Hex("0B1220"),Surface=Hex("111827"),Surface2=Hex("1A2333"),Border=Hex("273244"),Text=Hex("E5E7EB"),Muted=Hex("9CA3AF"),Blue=Hex("2563EB"),BlueSoft=Hex("1D3A73"),Green=Hex("22C55E"),Amber=Hex("F59E0B"),Red=Hex("EF4444"); public const float Radius=16f; private static Color Hex(string h){ColorUtility.TryParseHtmlString("#"+h,out var c);return c;} } }
