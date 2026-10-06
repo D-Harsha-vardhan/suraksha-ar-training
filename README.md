@@ -36,7 +36,7 @@ flowchart TD
     M --> N
 ```
 
-## Architecture
+##   Architecture
 
 | Area | Responsibility |
 | --- | --- |
